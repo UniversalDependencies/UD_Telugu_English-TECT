@@ -1,0 +1,274 @@
+# sent_id = 1001
+# text = Iṇṭini clean cēyaṇḍi
+1	Iṇṭini	_	NOUN	NOUN	_	3	nmod	_	Lang=te
+2	clean	_	VERB	VERB	_	3	dep	_	Lang=en
+3	cēyaṇḍi	_	VERB	VERB	_	0	root	_	Lang=te
+
+# sent_id = 1002
+# text = Amerikālō  time enta ?
+1	Amerikālō	_	NOUN	NOUN	_	2	nmod	_	Lang=en
+2	time	_	NOUN	NOUN	_	0	root	_	Lang=en
+3	enta	_	ADJ	ADJ	_	2	advmod	_	Lang=te
+4	?	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1003
+# text = Mumbai lō rain paḍutundā
+1	Mumbai	_	NOUN	NOUN	_	3	nmod	_	Lang=en
+2	lō	_	ADP	ADP	_	3	case	_	Lang=te
+3	rain	_	NOUN	NOUN	_	4	nsubj	_	Lang=en
+4	paḍutundā	_	VERB	VERB	_	0	root	_	Lang=te
+
+# sent_id = 1004
+# text = poyi mī dance cesukoṁḍirā !
+1	poyi	_	VERB	VERB	_	4	advcl	_	Lang=te
+2	mī	_	PRON	PRON	_	3	nmod	_	Lang=te
+3	dance	_	NOUN	NOUN	_	4	obj	_	Lang=en
+4	cesukoṁḍirā	_	VERB	VERB	_	0	root	_	Lang=te
+5	!	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1005
+# text = mīru ī dance cèyyāli .
+1	mīru	_	PRON	PRON	_	4	nsubj	_	Lang=te
+2	ī	_	DET	DET	_	3	det	_	Lang=te
+3	dance	_	NOUN	NOUN	_	4	obj	_	Lang=en
+4	cèyyāli	_	VERB	VERB	_	0	root	_	Lang=te
+5	.	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1006
+# text = nenu ī work cèyyāli .
+1	nenu	_	PRON	PRON	_	4	nsubj	_	Lang=te
+2	ī	_	DET	DET	_	3	det	_	Lang=te
+3	work	_	NOUN	NOUN	_	4	obj	_	Lang=en
+4	cèyyāli	_	VERB	VERB	_	0	root	_	Lang=te
+5	.	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1007
+# text = atanu iṁta big iṁṭlo unnāḍu .
+1	atanu	_	PRON	PRON	_	5	nsubj	_	Lang=te
+2	iṁta	_	DET	DET	_	4	det	_	Lang=te
+3	big	_	ADJ	ADJ	_	4	amod	_	Lang=en
+4	iṁṭlo	_	NOUN	NOUN	_	5	obl	_	Lang=te
+5	unnāḍu	_	VERB	VERB	_	0	root	_	Lang=te
+6	.	_	PUNCT	PUNCT	_	5	punct	_	Lang=univ
+
+# sent_id = 1008
+# text = mī town ikkaḍiki enta dūraṁ ?
+1	mī	_	PRON	PRON	_	2	nmod	_	Lang=te
+2	town	_	NOUN	NOUN	_	0	root	_	Lang=en
+3	ikkaḍiki	_	ADV	ADV	_	2	advmod	_	Lang=te
+4	enta	_	ADV	ADV	_	2	advmod	_	Lang=te
+5	dūraṁ	_	NOUN	NOUN	_	2	obj	_	Lang=te
+6	?	_	PUNCT	PUNCT	_	5	punct	_	Lang=univ
+
+# sent_id = 1009
+# text = aḍugo mī sister !
+1	aḍugo	_	VERB	VERB	_	0	root	_	Lang=te
+2	mī	_	PRON	PRON	_	1	obj	_	Lang=te
+3	sister	_	NOUN	NOUN	_	1	obj	_	Lang=en
+4	!	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1010
+# text = mī aunty erī ?
+1	mī	_	PRON	PRON	_	2	nmod	_	Lang=te
+2	aunty	_	NOUN	NOUN	_	3	nsubj	_	Lang=en
+3	erī	_	PRON	PRON	_	0	root	_	Lang=te
+4	?	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1011
+# text = āmè nākanṭe tall .
+1	āmè	_	PRON	PRON	_	2	nsubj	_	Lang=te
+2	nākanṭe	_	VERB	VERB	_	0	root	_	Lang=te
+3	tall	_	NOUN	NOUN	_	2	xcomp	_	Lang=en
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1012
+# text = manaṁ ènduku meat tinnāṁ ?
+1	manaṁ	_	PRON	PRON	_	4	nsubj	_	Lang=te
+2	ènduku	_	ADV	ADV	_	4	advmod	_	Lang=te
+3	meat	_	NOUN	NOUN	_	4	obj	_	Lang=en
+4	tinnāṁ	_	VERB	VERB	_	0	root	_	Lang=te
+5	?	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1013
+# text = memu lunch cèyyāli .
+1	memu	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	lunch	_	NOUN	NOUN	_	3	compound	_	Lang=en
+3	cèyyāli	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1014
+# text = idi pustakāla shop .
+1	idi	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	pustakāla	_	NOUN	NOUN	_	3	nmod	_	Lang=te
+3	shop	_	NOUN	NOUN	_	0	root	_	Lang=en
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1015
+# text = āmèki son leḍu .
+1	āmèki	_	PRON	PRON	_	3	obj	_	Lang=te
+2	son	_	NOUN	NOUN	_	3	nsubj	_	Lang=en
+3	leḍu	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1016
+# text = lunch ceyakuṁḍā èvaru unṭāru ?
+1	lunch	_	NOUN	NOUN	_	2	obj	_	Lang=en
+2	ceyakuṁḍā	_	VERB	VERB	_	4	advcl	_	Lang=te
+3	èvaru	_	PRON	PRON	_	4	nsubj	_	Lang=te
+4	unṭāru	_	VERB	VERB	_	0	root	_	Lang=te
+5	?	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1017
+# text = rāmu kamalaku chocolate icceḍu .
+1	rāmu	_	PROPN	PROPN	_	4	nsubj	_	Lang=te
+2	kamalaku	_	PROPN	PROPN	_	4	iobj	_	Lang=te
+3	chocolate	_	NOUN	NOUN	_	4	obj	_	Lang=en
+4	icceḍu	_	VERB	VERB	_	0	root	_	Lang=te
+5	.	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1018
+# text = adi magazine kādu .
+1	adi	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	magazine	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	kādu	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1019
+# text = manaṁ english vāḷḷaṁ kāmu .
+1	manaṁ	_	PRON	PRON	_	4	nsubj	_	Lang=te
+2	english	_	PROPN	PROPN	_	3	compound	_	Lang=en
+3	vāḷḷaṁ	_	PRON	PRON	_	4	obj	_	Lang=te
+4	kāmu	_	VERB	VERB	_	0	root	_	Lang=te
+5	.	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1020
+# text = nāku chocolate kāvāli .
+1	nāku	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	chocolate	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	kāvāli	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1021
+# text = nuvvu coffee tāgutāvā ?
+1	nuvvu	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	coffee	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	tāgutāvā	_	VERB	VERB	_	0	root	_	Lang=te
+4	?	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1022
+# text = nenu cake tinṭānu .
+1	nenu	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	cake	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	tinṭānu	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1023
+# text = nāku ī town kòtta .
+1	nāku	_	PRON	PRON	_	4	nsubj	_	Lang=te
+2	ī	_	DET	DET	_	3	det	_	Lang=te
+3	town	_	NOUN	NOUN	_	4	nmod	_	Lang=en
+4	kòtta	_	NOUN	NOUN	_	0	root	_	Lang=te
+5	.	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+
+# sent_id = 1024
+# text = mī inṭlo ènni tubs unnāyi ?
+1	mī	_	PRON	PRON	_	2	nmod	_	Lang=te
+2	inṭlo	_	NOUN	NOUN	_	5	obl	_	Lang=te
+3	ènni	_	DET	DET	_	4	det	_	Lang=te
+4	tubs	_	NOUN	NOUN	_	5	nsubj	_	Lang=en
+5	unnāyi	_	VERB	VERB	_	0	root	_	Lang=te
+6	?	_	PUNCT	PUNCT	_	5	punct	_	Lang=univ
+
+# sent_id = 1025
+# text = mīru inni telugu novels cadiverā ?
+1	mīru	_	PRON	PRON	_	5	nsubj	_	Lang=te
+2	inni	_	DET	DET	_	4	det	_	Lang=te
+3	telugu	_	NOUN	NOUN	_	4	compound	_	Lang=en
+4	novels	_	NOUN	NOUN	_	5	obj	_	Lang=en
+5	cadiverā	_	VERB	VERB	_	0	root	_	Lang=te
+6	?	_	PUNCT	PUNCT	_	5	punct	_	Lang=univ
+
+# sent_id = 1026
+# text = rāmu ikkaḍa five days unnāḍu .
+1	rāmu	_	PROPN	PROPN	_	5	nsubj	_	Lang=te
+2	ikkaḍa	_	ADV	ADV	_	5	advmod	_	Lang=te
+3	five	_	NUM	NUM	NumType=Card	4	nummod	_	Lang=en
+4	days	_	NOUN	NOUN	_	5	obl	_	Lang=en
+5	unnāḍu	_	VERB	VERB	_	0	root	_	Lang=te
+6	.	_	PUNCT	PUNCT	_	5	punct	_	Lang=univ
+
+# sent_id = 1027
+# text = Mūḍu pizza order cēyi
+1	Mūḍu	_	NOUN	NOUN	_	3	nummod	_	Lang=te
+2	pizza	_	NOUN	NOUN	_	3	nsubj	_	Lang=en
+3	order	_	VERB	VERB	_	0	root	_	Lang=en
+4	cēyi	_	VERB	VERB	_	3	obj	_	Lang=te
+
+# sent_id = 1028
+# text = nāku classical music aṇṭē iṣṭaṁ
+1	nāku	_	PRON	PRON	_	2	nsubj	_	Lang=te
+2	classical	_	PROPN	PROPN	_	3	nmod	_	Lang=en
+3	music	_	NOUN	NOUN_	_	0	root	_	Lang=en
+4	aṇṭē	_	VERB	VERB	_	3	nsubj	_	Lang=te
+5	iṣṭaṁ	_	ADJ	ADJ	_	3	xcomp	_	Lang=te
+
+# sent_id = 1029
+# text = alexa nāku oka story ceppu
+1	alexa	_	PROPN	PROPN	_	2	nsubj	_	Lang=en
+2	nāku	_	PRON	PRON	_	3	obl	_	Lang=te
+3	oka	_	DET	DET	_	4	det	_	_
+4	story	_	NOUN	NOUN	_	0	root	_	Lang=en
+5	ceppu	_	VERB	VERB	_	4	compound	_	Lang=te
+
+# sent_id = 1030
+# text = london bridge enta peddadi
+1	london	_	PROPN	PROPN	_	2	compound	_	Lang=en
+2	bridge	_	PROPN	PROPN	_	3	nsubj	_	Lang=en
+3	enta	_	ADV	ADV	_	4	advmod	_	Lang=te
+4	peddadi	_	ADJ	ADV	_	0	root	_	Lang=te
+
+# sent_id = 1031
+# text = nāku ī poem rāsi pèṭṭu .
+1	nāku	_	PRON	PRON	_	5	iobj	_	Lang=te
+2	ī	_	DET	DET	_	3	det	_	Lang=te
+3	poem	_	NOUN	NOUN	_	5	obj	_	Lang=en
+4	rāsi	_	VERB	VERB	_	5	compound	_	Lang=te
+5	pèṭṭu	_	VERB	VERB	_	0	root	_	Lang=te
+6	.	_	PUNCT	PUNCT	_	5	punct	_	Lang=univ
+
+# sent_id = 1032
+# text = āyana novels rāstāḍu .
+1	āyana	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	novels	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	rāstāḍu	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1033
+# text = āyana songs rāstāḍu .
+1	āyana	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	songs	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	rāstāḍu	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1034
+# text = cows milk istāyi .
+1	cows	_	NOUN	NOUN	_	3	nsubj	_	Lang=en
+2	milk	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	istāyi	_	VERB	VERB	_	0	root	_	Lang=te
+4	.	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1035
+# text = nuvvu water tāgutāvā ?
+1	nuvvu	_	PRON	PRON	_	3	nsubj	_	Lang=te
+2	water	_	NOUN	NOUN	_	3	obj	_	Lang=en
+3	tāgutāvā	_	VERB	VERB	_	0	root	_	Lang=te
+4	?	_	PUNCT	PUNCT	_	3	punct	_	Lang=univ
+
+# sent_id = 1036
+# text = Ā movie hit ayyindi .
+1	Ā	_	DET	DET	_	2	det	_	Lang=te
+2	movie	_	NOUN	NOUN	_	0	root	_	Lang=en
+3	hit	_	NOUN	NOUN	_	2	nmod	_	Lang=en
+4	ayyindi	_	VERB	VERB	_	2	nsubj	_	Lang=te
+5	.	_	PUNCT	PUNCT	_	4	punct	_	Lang=univ
+

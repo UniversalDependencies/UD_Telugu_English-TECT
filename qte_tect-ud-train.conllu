@@ -373,7 +373,7 @@
 
 # sent_id = 50
 # text = yesterday nenu ūḷḷo lenu .
-1	yesterday	_	NOUN	NOUN	_	4	obl:tmod	_	Lang=en
+1	yesterday	_	NOUN	NOUN	_	4	obl	_	Lang=en
 2	nenu	_	PRON	PRON	_	4	nsubj	_	Lang=te
 3	ūḷḷo	_	NOUN	NOUN	_	4	obl	_	Lang=te
 4	lenu	_	VERB	VERB	_	0	root	_	Lang=te
@@ -381,7 +381,7 @@
 
 # sent_id = 51
 # text = yesterday mīru ūḷḷo leru .
-1	yesterday	_	NOUN	NOUN	_	4	obl:tmod	_	Lang=en
+1	yesterday	_	NOUN	NOUN	_	4	obl	_	Lang=en
 2	mīru	_	PRON	PRON	_	4	nsubj	_	Lang=te
 3	ūḷḷo	_	NOUN	NOUN	_	4	obl	_	Lang=te
 4	leru	_	VERB	VERB	_	0	root	_	Lang=te

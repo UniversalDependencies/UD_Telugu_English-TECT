@@ -26,18 +26,18 @@ The following language Ids are stored in the MISC column:
 
 * Rama, Taraka and Vajilla, Sowmya (2021). The Telugu UD treebank
 
-'''
+```
 @misc{UD_Telugu-MTG,
 year = {2021},
 title = {The Telugu UD treebank},
 author = {Rama, Taraka, Vajjala, Sowmya},
 url= {https://github.com/UniversalDependencies/UD_Telugu-MTG}
 }
-'''
+```
 
 * FitzGerald, J., Hench, C., Peris, C., et al., (2022). Massive: A 1m-example multilingual natural language understanding dataset with 51 typologically-diverse languages. arXiv preprint arXiv:2204.08582.
 
-'''
+```
 @misc{fitzgerald2022massive,
       title={MASSIVE: A 1M-Example Multilingual Natural Language Understanding Dataset with 51 Typologically-Diverse Languages}, 
       author={Jack FitzGerald and Christopher Hench and Charith Peris and Scott Mackie and Kay Rottmann and Ana Sanchez and Aaron Nash and Liam Urbach and Vishesh Kakarala and Richa Singh and Swetha Ranganath and Laurie Crist and Misha Britan and Wouter Leeuwis and Gokhan Tur and Prem Natarajan},
@@ -46,11 +46,11 @@ url= {https://github.com/UniversalDependencies/UD_Telugu-MTG}
       archivePrefix={arXiv},
       primaryClass={cs.CL}
 }
-''' 
+```
 
 * Emanuele Bastianelli, Andrea Vanzo, Pawel Swietojanski, and Verena Rieser. (2020). SLURP: A Spoken Language Understanding Resource Package. In Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), pages 7252–7262, Online. Association for Computational Linguistics.
 
-'''
+```
 @inproceedings{bastianelli-etal-2020-slurp,
     title = "{SLURP}: A Spoken Language Understanding Resource Package",
     author = "Bastianelli, Emanuele  and
@@ -67,7 +67,7 @@ url= {https://github.com/UniversalDependencies/UD_Telugu-MTG}
     pages = "7252--7262",
     abstract = "Spoken Language Understanding infers semantic meaning directly from audio data, and thus promises to reduce error propagation and misunderstandings in end-user applications. However, publicly available SLU resources are limited. In this paper, we release SLURP, a new SLU package containing the following: (1) A new challenging dataset in English spanning 18 domains, which is substantially bigger and linguistically more diverse than existing datasets; (2) Competitive baselines based on state-of-the-art NLU and ASR systems; (3) A new transparent metric for entity labelling which enables a detailed error analysis for identifying potential areas of improvement. SLURP is available at https://github.com/pswietojanski/slurp."
 }
-'''
+```
 
 # Changelog
 

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>97</sentences><tokens>456</tokens><words>456</words><fused>0</fused></total>
+    <train><sentences>61</sentences><tokens>290</tokens><words>290</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>36</sentences><tokens>166</tokens><words>166</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="0" /><!--  -->
+  <forms unique="197" /><!-- ., ?, mī, nāku, ī, nenu, rāmu, cèyyāli, enta, mīru, work, āyana, manaṁ, !, kādu -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="10">
+    <tag name="ADJ">9</tag><!-- _ -->
+    <tag name="ADP">6</tag><!-- _ -->
+    <tag name="ADV">14</tag><!-- _ -->
+    <tag name="DET">20</tag><!-- _ -->
+    <tag name="NOUN">122</tag><!-- _ -->
+    <tag name="NUM">3</tag><!-- _ -->
+    <tag name="PRON">78</tag><!-- _ -->
+    <tag name="PROPN">20</tag><!-- _ -->
+    <tag name="PUNCT">85</tag><!-- _ -->
+    <tag name="VERB">99</tag><!-- _ -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="1">
+    <feat name="NumType" value="Card" upos="NUM">2</feat><!-- five, ten -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="18">
+    <dep name="acl">2</dep>
+    <dep name="advcl">6</dep>
+    <dep name="advmod">16</dep>
+    <dep name="amod">3</dep>
+    <dep name="case">6</dep>
+    <dep name="ccomp">1</dep>
+    <dep name="compound">16</dep>
+    <dep name="dep">3</dep>
+    <dep name="det">20</dep>
+    <dep name="iobj">5</dep>
+    <dep name="nmod">29</dep>
+    <dep name="nsubj">84</dep>
+    <dep name="nummod">4</dep>
+    <dep name="obj">56</dep>
+    <dep name="obl">19</dep>
+    <dep name="punct">85</dep>
+    <dep name="root">97</dep>
+    <dep name="xcomp">4</dep>
+  </deps>
+</treebank>

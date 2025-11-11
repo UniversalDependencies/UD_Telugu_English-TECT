@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Telugu_English-TECT:
-commit 908d6b196419823d1a2f266cb2070a8d1d414e7b
+commit 2a5e9becae6d0ac9f0685150a9037e72640502e7
+Merge: 597f3ae bfafabb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 16:44:24 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'qte_tect'
+Language code (from CoNLL-U file name) = 'qte'
+Found the following data files: qte_tect-ud-test.conllu, qte_tect-ud-train.conllu
 Size: counted 456 of 456 words (nodes).
 Size: min(0, log((N/1000)**2)) = 0.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,24 +23,49 @@ Features: 2 out of 456 total words have one or more features.
 Features: source of annotation (from README) factor is 0.4.
 Universal relations: 18 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
-Udapi:
-               TOTAL        201
-Udapi: found 201 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 456 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qte --max-err=10 UD_Telugu_English-TECT/qte_tect-ud-test.conllu
-*** PASSED ***
+[Line 65 Sent 1009]: [L3 Syntax too-many-objects] Multiple direct objects [2, 3] ('mī', 'sister') under the predicate 'aḍugo'.
+[Line 24 Sent 1004]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent 1005]: [L3 Warning pron-det-without-prontype] The word 'mīru' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 32 Sent 1005]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 39 Sent 1006]: [L3 Warning pron-det-without-prontype] The word 'nenu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 40 Sent 1006]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 47 Sent 1007]: [L3 Warning pron-det-without-prontype] The word 'atanu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 48 Sent 1007]: [L3 Warning pron-det-without-prontype] The word 'iṁta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 56 Sent 1008]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 66 Sent 1009]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 72 Sent 1010]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Syntax errors: 1
+Warnings: 38
+*** FAILED *** with 1 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qte --max-err=10 UD_Telugu_English-TECT/qte_tect-ud-train.conllu
-*** PASSED ***
-Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.12) = 0.00923076923076923
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.01) = 0.000769230769230769
-(weight=0.256410256410256) * (score{size}=0) = 0
-(weight=0.0512820512820513) * (score{split}=0.01) = 0.000512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.529411764705882) = 0.0407239819004525
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.0486486486486487) = 0.00374220374220374
-(TOTAL score=0.0623294335059041) * (availability=1) * (validity=1) = 0.0623294335059041
-STARS = 0.5
-UD_Telugu_English-TECT	0.0623294335059041	0.5
+[Line 72 Sent 11]: [L3 Syntax too-many-objects] Multiple direct objects [2, 3] ('mī', 'brother') under the predicate 'aḍugo'.
+[Line 31 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 38 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'mīru' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 39 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 46 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'nenu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 47 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 54 Sent 9]: [L3 Warning pron-det-without-prontype] The word 'atanu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 55 Sent 9]: [L3 Warning pron-det-without-prontype] The word 'iṁta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 63 Sent 10]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 73 Sent 11]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 79 Sent 12]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further errors regarding Warning
+Syntax errors: 1
+Warnings: 60
+*** FAILED *** with 1 errors
+Exit code: 1
+Validity: 0.01
+(weight=0.111111111111111) * (score{features}=0.12) = 0.0133333333333333
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.01) = 0.00111111111111111
+(weight=0.37037037037037) * (score{size}=0) = 0
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.529411764705882) = 0.0588235294117647
+(weight=0.111111111111111) * (score{udeprels}=0.0486486486486487) = 0.00540540540540541
+(TOTAL score=0.0855869595085281) * (availability=1) * (validity=0.01) = 0.000855869595085281
+STARS = 0
+UD_Telugu_English-TECT	0.000855869595085281	0

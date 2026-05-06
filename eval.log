@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Telugu_English-TECT:
-commit 2a5e9becae6d0ac9f0685150a9037e72640502e7
-Merge: 597f3ae bfafabb
+commit cae01c8f7b292fe0521c5be630fad1e6187f97fb
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:55:57 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'qte_tect'
 Language code (from CoNLL-U file name) = 'qte'
@@ -25,37 +25,37 @@ Universal relations: 18 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qte --max-err=10 UD_Telugu_English-TECT/qte_tect-ud-test.conllu
-[Line 65 Sent 1009]: [L3 Syntax too-many-objects] Multiple direct objects [2, 3] ('mī', 'sister') under the predicate 'aḍugo'.
-[Line 24 Sent 1004]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 31 Sent 1005]: [L3 Warning pron-det-without-prontype] The word 'mīru' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 32 Sent 1005]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 39 Sent 1006]: [L3 Warning pron-det-without-prontype] The word 'nenu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 40 Sent 1006]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 47 Sent 1007]: [L3 Warning pron-det-without-prontype] The word 'atanu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 48 Sent 1007]: [L3 Warning pron-det-without-prontype] The word 'iṁta' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 56 Sent 1008]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 66 Sent 1009]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 72 Sent 1010]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Syntax errors: 1
+[Line 65 Sent 1009]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 3] ('mī', 'sister') under the predicate 'aḍugo'.
+[Line 24 Sent 1004]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 31 Sent 1005]: [L3 WARNING pron-det-without-prontype] The word 'mīru' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 32 Sent 1005]: [L3 WARNING pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 39 Sent 1006]: [L3 WARNING pron-det-without-prontype] The word 'nenu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 40 Sent 1006]: [L3 WARNING pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 47 Sent 1007]: [L3 WARNING pron-det-without-prontype] The word 'atanu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 48 Sent 1007]: [L3 WARNING pron-det-without-prontype] The word 'iṁta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 56 Sent 1008]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 66 Sent 1009]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 72 Sent 1010]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 38
+SYNTAX errors: 1
 *** FAILED *** with 1 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qte --max-err=10 UD_Telugu_English-TECT/qte_tect-ud-train.conllu
-[Line 72 Sent 11]: [L3 Syntax too-many-objects] Multiple direct objects [2, 3] ('mī', 'brother') under the predicate 'aḍugo'.
-[Line 31 Sent 5]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 38 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'mīru' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 39 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 46 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'nenu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 47 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 54 Sent 9]: [L3 Warning pron-det-without-prontype] The word 'atanu' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 55 Sent 9]: [L3 Warning pron-det-without-prontype] The word 'iṁta' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 63 Sent 10]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 73 Sent 11]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 79 Sent 12]: [L3 Warning pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-Syntax errors: 1
+[Line 72 Sent 11]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 3] ('mī', 'brother') under the predicate 'aḍugo'.
+[Line 31 Sent 5]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 38 Sent 6]: [L3 WARNING pron-det-without-prontype] The word 'mīru' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 39 Sent 6]: [L3 WARNING pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 46 Sent 7]: [L3 WARNING pron-det-without-prontype] The word 'nenu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 47 Sent 7]: [L3 WARNING pron-det-without-prontype] The word 'ī' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 54 Sent 9]: [L3 WARNING pron-det-without-prontype] The word 'atanu' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 55 Sent 9]: [L3 WARNING pron-det-without-prontype] The word 'iṁta' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 63 Sent 10]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 73 Sent 11]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 79 Sent 12]: [L3 WARNING pron-det-without-prontype] The word 'mī' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
 Warnings: 60
+SYNTAX errors: 1
 *** FAILED *** with 1 errors
 Exit code: 1
 Validity: 0.01
